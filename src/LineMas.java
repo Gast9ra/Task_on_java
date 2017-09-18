@@ -1,9 +1,17 @@
-package Products;
+
 
 public class LineMas {
 
     public static void main(String arg[]) {
-        int[] mas = new int[]{12, 435, -20, -2000000000, 300000, 87465};
+        int[] rew = new int[]{12, 435, -20, -2000000000, 300000, 87465};
+
+
+
+    }
+
+
+
+    public int[] maxInMas(int[] mas){
         int st = 0;
         int fn = 0;
         int sum = 0;
@@ -21,14 +29,9 @@ public class LineMas {
                 st1 = i + 1;
             }
         }
-        System.out.println(" ");
-        System.out.print("[");
-        for (int i=st;i<=fn;i++){
-            System.out.print(mas[i]+", ");
-
-        }
-        System.out.print("]");
-
+        return new int[]{st,fn};
     }
+
+
 
 }
