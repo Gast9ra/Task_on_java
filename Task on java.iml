@@ -14,7 +14,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Python 3.4.3 (C:\WinPython-64bit-3.4.3.6\python-3.4.3.amd64\pythonw.exe) interpreter library" level="application" />
-    <orderEntry type="library" name="org.junit.jupiter:junit-jupiter-api:5.0.0-M6" level="project" />
-    <orderEntry type="library" name="org.junit.jupiter:junit-jupiter-engine:5.0.0-M6" level="application" />
+    <orderEntry type="library" name="org.junit.jupiter:junit-jupiter-api:5.0.0-RC2" level="project" />
+    <orderEntry type="library" name="org.junit.jupiter:junit-jupiter-engine:5.0.0-RC2" level="project" />
   </component>
 </module>
