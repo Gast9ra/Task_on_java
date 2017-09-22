@@ -12,24 +12,24 @@ public class LineMas {
 
 
     public int[] maxInMas(int[] mas){
-        int st = 0;
-        int fn = 0;
+        int start = 0;
+        int finish = 0;
         int sum = 0;
         int nowSum = 0;
-        int st1 = 0;
+        int cacheStart = 0;
         for (int i = 0; i < mas.length; i++) {
             nowSum += mas[i];
             if (nowSum > sum) {
                 sum = nowSum;
-                fn = i;
-                st = st1;
+                finish = i;
+                start = cacheStart;
             }
             if (nowSum < 0) {
                 nowSum = 0;
-                st1 = i + 1;
+                cacheStart = i + 1;
             }
         }
-        return new int[]{st,fn};
+        return new int[]{start,finish};
     }
 
 
